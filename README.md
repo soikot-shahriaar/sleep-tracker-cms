@@ -135,7 +135,7 @@ sleep-tracker-cms/
 ### 1. Download and Extract
 ```bash
 # Clone or download the project
-git clone <repository-url> sleep-tracker-cms
+git clone https://github.com/soikot-shahriaar/sleep-tracker-cms
 cd sleep-tracker-cms
 ```
 
