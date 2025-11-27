@@ -1,0 +1,23 @@
+# Sleep Tracker CMS - Simple Apache Configuration
+
+# Enable rewrite engine
+RewriteEngine On
+
+# Basic security - hide sensitive files
+<Files "*.sql">
+    Order allow,deny
+    Deny from all
+</Files>
+
+<Files "*.md">
+    Order allow,deny
+    Deny from all
+</Files>
+
+# Disable directory browsing
+Options -Indexes
+
+# Allow all access to the project
+Order allow,deny
+Allow from all
+
